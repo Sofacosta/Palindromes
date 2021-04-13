@@ -4,13 +4,15 @@ using PalindromesWord;
 namespace PalindromesWord.Tests
 {
   [TestClass]
-  public class PalindromesChecker
+  public class PalindromesCheckerTest
   {
     [TestMethod]
     public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
     {
-    // any necessary logic to prep for test; instantiating new classes, etc.
-    //Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+    PalindromesChecker testPalindromesChecker_IsThisWordAPalindrome_True()
+    {
+      string testWord = "racecar";
+    }
     }
   }
 }
